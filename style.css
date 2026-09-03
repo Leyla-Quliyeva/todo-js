@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.completed {
+  text-decoration: line-through;
+}
+body {
+  background-color: #c9e4de;
+}
+.todo {
+  text-align: center;
+  margin-top: 120px;
+}
+.todo h1 {
+  color: #34495e;
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+#input {
+  margin-top: 50px;
+  width: 250px;
+  height: 45px;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 15px;
+  border: 2px solid #48adad;
+  box-shadow: 0 0 7px #34495e;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+#input::placeholder {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+  color: #34495e;
+}
+#btn {
+  width: 100px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #c9e4de;
+  box-shadow: 0 0 15px #34495e;
+  color: #34495e;
+  font-size: 16px;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+li {
+  width: 500px;
+  margin: 25px auto 0;
+  font-size: 28px;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete,
+.editBtn {
+  width: 75px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #c9e4de;
+}
+.editBtn {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+}
+.delete {
+  margin-right: 5px;
+}
